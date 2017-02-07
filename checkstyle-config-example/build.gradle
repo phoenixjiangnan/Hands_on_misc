@@ -9,6 +9,9 @@ buildscript {
   }
 }
 
+apply plugin: 'checkstyle'
+apply plugin: 'java'
+
 plugins {
   id "com.commercehub.gradle.plugin.avro" version "0.9.0"
   id 'groovy'
